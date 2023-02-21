@@ -4,7 +4,7 @@
 1. Copy code from [code.js](code.js)
 2. Create new bookmark in your browser window. [basic how to](https://mycomputerworks.com/how-to-bookmark-webpages-browser/)
 3. Edit bookmark if the edit window did not automatically open (typically right click will give the option to edit)
-4. paste the code from [code.js](code.js) into the URL section
+4. paste the code from [code.js](code.js) into the URL section and save
 
 ### How to use
 While in the ship controls of an undocked ship in an Asteroid Field click the bookmark you created. This will automatically prompt you to download the generated csv file.
