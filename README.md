@@ -11,3 +11,6 @@ While in the ship controls of an undocked ship in an Asteroid Field click the bo
 
 #### Supported Platforms
 This will likely only work in a desktop environment, does not appear to work on mobile (though you are welcome to try)
+
+#### Other Info
+I don't typically use Javascript so the code is probably not ideal, but it does exactly what I needed it to. The code has been made readable and commented in [PrettyCode](PrettyCode.js)
