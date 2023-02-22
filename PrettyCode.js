@@ -29,6 +29,7 @@ function()
      this next bit of code searches for the name of the asteroid field to place it at 0,0 in the array
      it's honestly kind of gross but there doesn't appear to be an easier way to find that info in the html
      but basically it gets all of the classes with the name "tableheader" since the name is stored in one of those
+     then it loops through the array of elements looking for the one with "Asteroid Field" in its text
   */
   let infopane = document.getElementsByClassName("tableheader");
   for(let i = 0; i < infopane.length; i++) 
