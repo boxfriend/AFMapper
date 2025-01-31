@@ -5,7 +5,7 @@
 // @description  automatically map asteroid fields in SWC
 // @author       boxfriend
 // @match        http*://*.swcombine.com/members/cockpit/
-// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @icon         https://i.imgur.com/hfJ0kHe.png
 // @grant        GM_registerMenuCommand
 // @grant        GM_addElement
 // ==/UserScript==
@@ -16,7 +16,7 @@
     if(asteroidSensor.length > 0) {
         const iconRow = document.querySelector(".cockpit_card tbody > tr:last-child div");
         console.log(iconRow);
-        const button = GM_addElement(iconRow, 'img', { src: "https://imgur.com/lpExn6T.png", height: 30, width: 30, title: "Downloads a map of the current Asteroid field"});
+        const button = GM_addElement(iconRow, 'img', { src: "https://i.imgur.com/hfJ0kHe.png", height: 30, width: 30, title: "Downloads a map of the current Asteroid field"});
         button.addEventListener("click", () => downloadMap(asteroidSensor));
     }
     GM_registerMenuCommand("Map Asteroids", () => downloadMap(asteroidSensor), { accessKey: "m", autoClose: true, title: "Downloads a map of the current Asteroid field" });
